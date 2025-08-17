@@ -1,4 +1,4 @@
-import { Pizza } from "lucide-react";
+import { BookOpen } from "lucide-react";
 import { MotionDiv, MotionH3 } from "../common/motion-wrapper";
 import { SummaryViewer } from "../summaries/summary-viewer";
 
@@ -58,7 +58,7 @@ export default function DemoSection() {
 
         <div className="flex flex-col items-center text-center space-y-4">
           <div className="inline-flex items-center justify-center p-2 rounded-2xl bg-gray-100/80 background-blur-xs border border-gray-500/20 mb-4">
-            <Pizza className="w-6 h-6 text-rose-500" />
+            <BookOpen className="w-6 h-6 text-rose-500" />
           </div>
           <div className="text-center mb-16">
             <MotionH3
